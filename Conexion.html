@@ -3,6 +3,7 @@
 </head>
 <link rel="stylesheet" href="Style.css">
 <script src="custom.js"></script>
+
 <div class="wrapper">
     <h1>Formulaire de Conexion</h1>
 
@@ -12,12 +13,11 @@
                 <h2>Identification</h2>
             </header>
 
-            <form action="" method="post">
-
-                <input type="text" name="username"
-placeholder="Pseudo" required="required"/>
-                <input type="password" name="password"
-placeholder="Mot de passe" required="required"/>
+            <form action="" onsubmit="result()">
+                <input type="text" class="form-control" name="username"
+placeholder="Pseudo" id="pseudo" required="required"/>
+                <input type="password" class="form-control" name="password"
+placeholder="Mot de passe" id="password" required="required"/>
                 <button type="submit">Conexion</button>  
 
             </form>
