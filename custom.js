@@ -5,4 +5,5 @@ function result(){
     sessionStorage.setItem('Pseudo',pseudo);
     sessionStorage.setItem('Password', password);
 
+
 }
