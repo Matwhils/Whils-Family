@@ -5,8 +5,19 @@
 <section class="login-container">
 <form action="Conexion">
 <div>
-<input type="text" required="index"
-       placeholder="Code"/>
+<input type="text" placeholder="Enter name" id="nm">
+<script>
+       var a=document.getElementById("nm").value;
+       function cond(){
+              if(a=="amina"){
+                     document.write("oui")
+              }
+              else if(a=="amina"){
+                     document.write("non");
+
+              }
+       }
+</script>
        <button>Test</button>
        
 </div>
