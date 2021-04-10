@@ -9,12 +9,21 @@
 
 #banner2 {
     display: block;
-    background-color: #60ffb0; 
+    background-color: #c4f7cf; 
     height: middle;
     width: middle;
     padding: 5%;
 }
 
-#site {
+#banner3 {
+    display: block;
+
+    background-color: #60ffb0; 
+
+    height: middle;
+
+    width: middle;
+
+    padding: 5%;
 
 }
